@@ -3,15 +3,23 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3001",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@walletconnect/client": "^1.7.8",
+    "@walletconnect/qrcode-modal": "^1.7.8",
+    "@walletconnect/sign-client": "^2.0.0-rc.0",
+    "@walletconnect/types": "^2.0.0-rc.0",
+    "@walletconnect/web3-provider": "^1.7.8",
+    "better-sqlite3": "^7.6.2",
     "next": "12.2.2",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "rn-nodeify": "^10.3.0",
+    "web3": "^1.7.4"
   },
   "devDependencies": {
     "eslint": "8.20.0",
